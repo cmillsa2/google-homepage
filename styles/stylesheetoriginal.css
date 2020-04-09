@@ -1,0 +1,25 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    height: 50px;
+    flex-basis: 100%;
+    align-items: center;
+    }
+li{
+    width: 80px;
+    padding-left: 15px;
+}
+.navright, .navleft{
+    flex: 1;
+}   
+#apps{
+    height: 50px;
+}
+.navright{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
